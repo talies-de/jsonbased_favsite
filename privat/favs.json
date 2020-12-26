@@ -1,0 +1,39 @@
+[
+   {
+      "title" : "OneDrive",
+      "url": "https://onedrive.live.com",
+      "img": "onedrive.png",
+      "cat": "1"    
+   },
+   {
+      "title" : "Mail-Archiv",
+      "url": "https://home.talies.de/mail",
+      "img": "roundcube.png",
+      "cat": "2"    
+   },
+   {
+      "title" : "Private Mails",
+      "url": "https://webmail.talies.de",
+      "img": "outlook.png",
+      "cat": "2"    
+   },
+   {
+      "title" : "Amazon",
+      "url": "https://smile.amazon.de",
+      "img": "amazon.png",
+      "cat": "3"    
+   },
+   {
+      "title" : "Ecosia",
+      "url": "https://www.ecosia.org/?c=de",
+      "img": "ecosia.png",
+      "cat": "4"    
+   },
+   {
+      "title" : "Google",
+      "url": "https://www.google.de",
+      "img": "google.png",
+      "cat": "4"    
+   }
+]
+ 

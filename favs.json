@@ -1,0 +1,224 @@
+[
+   {
+      "title" : "Webuntis",
+      "url": "https://hepta.webuntis.com/WebUntis/?school=abtei-gym-pulheim#/basic/main",
+      "img": "webuntis.png",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "LogiNeo ABG",
+      "url": "https://183910.logineonrw-lms.de/my",
+      "img": "lms.jpg",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "EntE",
+      "url": "https://agb.ente.app/slots",
+      "img": "ente.png",
+      "cat": "Schule"   
+   },
+   {
+      "title" : "AGB Schulportal",
+      "url": "https://portal.lanis-system.de/index.php?i=10007",
+      "img": "agb.png",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "SchildWeb Noten",
+      "url": "https://schildweb.abteigymnasium.de/",
+      "img": "schildweb.png",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "Big Blue Button",
+      "url": "https://bbb2.abtei-gymnasium-brauweiler.de/",
+      "img": "bbb.png",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "LogiNeo Messenger",
+      "url": "https://183910.logineonrw-messenger.de/",
+      "img": "element.png",
+      "cat": "Schule"    
+   },
+   {
+      "title" : "Bildungs-Cloud",
+      "url": "https://bca.logineo.nrw.schule/edu-sharing/components/workspace",
+      "img": "bildungscloud.png",
+      "cat": "Physik"    
+   },
+   {
+      "title" : "Verwaltungs-Cloud",
+      "url": "https://repo.logineo.nrw.schule/edu-sharing/components/workspace",
+      "img": "verwaltungscloud.png",
+      "cat": "Physik"    
+   },
+   {
+      "title" : "4Teachers-Physik",
+      "url": "https://www.4teachers.de/?action=show&id=54",
+      "img": "4teachers.png",      
+      "cat": "Physik"    
+   },
+   {
+      "title" : "Leifi-Physik",
+      "url": "https://www.leifiphysik.de/nordrhein-westfalen",
+      "img": "leifi.png",      
+      "cat": "Physik"    
+   },
+   {
+      "title" : "Phet-Physik",
+      "url": "https://phet.colorado.edu/de/simulations/category/physics",
+      "img": "phet.png",
+      "cat": "Physik"    
+   },
+   {
+      "title" : "ZUM/DWU",
+      "url": "https://www.zum.de/dwu/umaptg.htm",
+      "img": "zum.png",
+      "cat": "Physik"    
+   },
+   {
+      "title" : "Institut für Didaktik der Physik Münster",
+      "url": "https://www.uni-muenster.de/Physik.DP/willkommen.html",
+      "img": "muenster.png",      
+      "cat": "Physik"    
+   },
+   {
+      "title" : "BiBox 2.0",
+      "url": "https://bibox2.westermann.de/shelf",
+      "img": "bibox.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "Qua-Lis NRW",
+      "url": "https://tetfolio.de/NRW-Physik-Experimente",
+      "img": "qualis.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "4Teachers-Mathe",
+      "url": "https://www.4teachers.de/?action=show&id=50",
+      "img": "4teachers.png",      
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "Abiturlösungen",
+      "url": "https://www.abiturloesung.de",
+      "img": "abimathe.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "Wolfram Alpha",
+      "url": "https://www.wolframalpha.com",
+      "img": "wolframalpha.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "GeoGebra",
+      "url": "https://www.geogebra.org/webstart/geogebra.html",
+      "img": "geogebra.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "öbv",
+      "url": "https://www.oebv.at",
+      "img": "oebv.png",
+      "cat": "Mathematik"    
+   },
+   {
+      "title" : "Mail Abteigymnasium",
+      "url": "https://groupware.logineo.nrw.schule/SOGo/so/d6daa3ce-758d-438f-99cf-d593ec3197e3/Mail/view#!/Mail/0/INBOX",
+      "img": "logineomail.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "Mail-Archiv",
+      "url": "https://home.talies.de/mail",
+      "img": "roundcube.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "OneDrive",
+      "url": "https://onedrive.live.com",
+      "img": "onedrive.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "Moodle ABG",
+      "url": "https://moodle.abteigymnasium.de/",
+      "img": "moodle.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "Mail AGB (alt)",
+      "url": "https://mail.ionos.de",
+      "img": "ionos.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "Abtei-Gymnasium",
+      "url": "https://www.abteigymnasium.de",
+      "img": "agb.png",
+      "cat": "Sonstiges"    
+   },
+   {
+      "title" : "Private Mails",
+      "url": "https://webmail.talies.de",
+      "img": "outlook.png",
+      "cat": "Mail"    
+   },
+   {
+      "title" : "DSBmobile",
+      "url": "https://mobile.dsbcontrol.de",
+      "img": "dsbmobile.jpg",
+      "cat": "Mail"    
+   },
+   {
+      "title" : "Geschwister-Scholl",
+      "url": "https://gsg.intercoaster.de",
+      "img": "gsg.jpg",
+      "cat": "Mail"    
+   },
+   {
+      "title" : "LogiNeo GSG",
+      "url": "https://166959.logineonrw-lms.de/my",
+      "img": "lms.jpg",
+      "cat": "Mail"    
+   },
+   {
+      "title" : "LD-Didactic",
+      "url": "https://www.ld-didactic.de",
+      "img": "lddidactic.png",
+      "cat": "Mail"    
+   },
+   
+   
+
+   
+   {
+      "title" : "Unterricht.de",
+      "url": "https://www.unterricht.de",
+      "img": "unterricht.png",
+      "cat": ""    
+   },
+
+   {
+      "title" : "Amazon",
+      "url": "https://smile.amazon.de",
+      "img": "amazon.png",
+      "cat": ""    
+   },
+   {
+      "title" : "Ecosia",
+      "url": "https://www.ecosia.org/?c=de",
+      "img": "ecosia.png",
+      "cat": ""    
+   },
+   {
+      "title" : "Google",
+      "url": "https://www.google.de",
+      "img": "google.png",
+      "cat": ""    
+   }
+]
+ 

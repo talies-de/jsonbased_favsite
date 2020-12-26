@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+    <head>
+        <title>WebPortal</title>
+        <meta charset="UTF-8">
+        <meta name="Description" content="WebPortal - Ricarda Talies - Privat">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="../scripts/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+        <link rel="icon" type="image/ico" href="icons/favicon.ico">
+    </head>
+
+    <body>
+        <main id="main">
+            <div class="menubar">
+                <a class="nounderlinelink" href="../index.html" target="self" rel="noreferrer">&#x1F30D;</a> 
+                WebPortal - Ricarda Talies - Privat
+            </div>
+
+            <div class="container"></div>
+            
+            <script>
+                const imgPath = 'images/';
+                var categories = [];
+
+                $.getJSON( "categories.json", function( data ) { // Erstellen der DIV-Container anhand der Reihenfolge in der Datei categories.json               
+                    $.each( data, function( key, val ) { categories.push(val.cat); });
+                    categories.forEach(function (name) { $(".container").append("<div class='" + name + "'></div>"); });
+                });                                  
+
+                $.getJSON( "favs.json", function( data ) { // Auslesen der Links
+                    var items = [];
+                    
+                    $.each( data, function( key, val ) {                         
+                        items.push("<div class='" + val.cat + "'><div class='flex-subcontainer'><div class='flex-item-top'>" 
+                                + "<a class='" + val.cat + "' href='" + val.url + "' target=_blank rel=noreferrer>"
+                                + "<img class='icon' src='" + imgPath + val.img + "' alt='" + val.title + "'>"
+                            + "</div><div class='flex-item-bottom'>" 
+                                + "<a class='" + val.cat + "' href='" + val.url + "' target=_blank rel=noreferrer>" + val.title 
+                            + "</div></div></div>")                 
+                    });  
+                    
+                    categories.forEach(function (name) { // Einsortieren der Links in die angelegten Kategorie-Container in der abgelegten Reihenfolge         
+                        var fItems = [];                        
+                        fItems = items.filter(item => { return item.search("class='" + name + "'") > -1; })
+                        $( "<div/>", { "class": "flex-container", html: fItems.join("") }).appendTo( "." + name );    
+                    });                
+                });
+            </script>
+        </main>
+    </body>
+</html>
